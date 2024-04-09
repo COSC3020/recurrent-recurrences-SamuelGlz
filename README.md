@@ -37,7 +37,7 @@ $= T(1) + 5*log_{13}n$
 
 $= 1 + 5*log_{13}n$
 
-T(n) $\in$ log(n)
+T(n) $\in$ $\Theta$ (log(n))
 
 2.
 $$ T(n) =
@@ -79,7 +79,7 @@ $= n + \sum_{j = 1}^{log_{13}n}{13^{j-1}*5}$
 
 The sum will just end up as a constant, which is asymptotically irrelevant  
 
-T(n) $\in$ n
+T(n) $\in$ $\Theta$ (n)
 
 3.
 $$ T(n) =
@@ -115,4 +115,4 @@ T(n) = $13^(log_{13}n) T(\frac{n}{13^{log_{13}n}})$ + $2(log_{13}n)*n$
 
 = n + $2(\log_{13}n)$ * n 
 
-T(n) $\in$ n * log(n)
+T(n) $\in$ $\Theta$ (n * log(n))
