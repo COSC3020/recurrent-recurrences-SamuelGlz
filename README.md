@@ -53,7 +53,7 @@ $= 13(13T(\frac{n}{13^2}) +5) + 5$
 
 $= 13^2 T(\frac{n}{13^2}) + 13*5 + 5$
 
-$= 13^3 T(\frac{n}{13^3}) + 13^2 *5 + 13*5 + 5$
+$= 13^3 T(\frac{n}{13^3}) + 13^2 * 5 + 13 * 5 + 5$
 
 The pattern is as follows:
 
@@ -111,8 +111,8 @@ Substituting back in:
 
 $T(n) = 13^(log_{13}n) T(\frac{n}{13^{log_{13}n}}) + 2(log_{13}n)*n$
 
-$ = n * T(1) + 2(log_{13}n)*n$
+$ = n * T(1) + 2(log_{13}n) * n$
 
-$ = n + 2(log_{13}n)*n$ 
+$ = n + 2(log_{13}n) * n$ 
 
 T(n) $\in$ n * log(n)
